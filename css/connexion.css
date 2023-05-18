@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.haut {
+    height: 8%;
+    background-color: #CAA8F5;
+    opacity: 0.8;
+}
+
+.milieu {
+    height: 80%;
+    background-color: #9984D4;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control{
+    width:100%;
+}
+.formulaire{
+    width: 40%;
+    height: 80%;
+    background-color:  #E2CFEA;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bas {
+    height: 12%;
+    background-color: #CAA8F5;
+    opacity: 0.8;
+}
+/* .contnavbar{
+    background-color: #212738;
+    height: 50%;
+} */
